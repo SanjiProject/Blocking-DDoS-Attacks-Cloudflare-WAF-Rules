@@ -42,7 +42,7 @@ This rule targets HTTP/2 GET requests to a specific host while allowing legitima
     (
         http.request.method eq "GET" and
         http.request.version eq "HTTP/2" and
-        http.host contains "tiranga.app" and
+        http.host contains "YOURSITE" and
         (
             not (
                 ip.geoip.country eq "IN" and
