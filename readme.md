@@ -1,4 +1,4 @@
-# Blocking DDoS Attacks: Advanced WAF Rules
+# Blocking DDoS Attacks: Advanced WAF Rules With CloudFlare
 
 Welcome to our repository dedicated to providing advanced Web Application Firewall (WAF) rules to protect your web applications from Distributed Denial of Service (DDoS) attacks. This guide includes tailored rules for different scenarios, ensuring your application stays online and secure.
 
@@ -19,7 +19,7 @@ Enhance your website's security with Cloudflare's Web Application Firewall (WAF)
 
 ## Basic WAF DDoS Rule
 
-This rule blocks requests from specific countries, except India, and excludes certain autonomous systems known for benign traffic.
+This rule blocks requests from specific countries, except India "IN" or You may Choose your Desired Country of your traffic Exception [Here is The Country Code](https://www.geonames.org/countries/), and excludes certain autonomous systems known for traffic.
 
     ```
     (ip.geoip.country ne "IN" and ip.geoip.country in {"CA", "CN", "IE", "NL", "RO", "RU", "TT", "GB", "US"} and not ip.geoip.asnum in {32934, 394699, 15169, 22577})
