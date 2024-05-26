@@ -8,7 +8,7 @@ Welcome to our repository dedicated to providing advanced Web Application Firewa
 Enhance your website's security with Cloudflare's Web Application Firewall (WAF). Follow these steps to configure WAF rules effectively:
 
 **Open Cloudflare WAF Tutorial**
-   - [![Open Cloudflare WAF Tutorial](https://i.ibb.co/R9fzKGy/cf1.jpg)](https://i.ibb.co/R9fzKGy/cf1.jpg)
+     [![Open Cloudflare WAF Tutorial](https://i.ibb.co/R9fzKGy/cf1.jpg)](https://i.ibb.co/R9fzKGy/cf1.jpg)
    - On your Cloudflare Site, navigate to "Security" on the side tab.
    - Select "WAF."
    - Rule name (required): Enter your Rule Name - Example (BASIC WAF DDOS RULE)
