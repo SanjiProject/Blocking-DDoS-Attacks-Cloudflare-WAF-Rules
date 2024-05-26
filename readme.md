@@ -31,7 +31,7 @@ This rule blocks requests from specific countries, except India "IN" or You may 
 Designed specifically for WordPress installations, this rule blocks malicious traffic targeting the wp-admin and wp-cron.php endpoints, with an exception for a trusted IP.
 
     ```
-    ((http.request.uri.path contains "/wp-admin/") or (http.request.uri.path eq "/wp-cron.php")) and (ip.src ne 113.61.44.194)
+    ((http.request.uri.path contains "/wp-admin/") or (http.request.uri.path eq "/wp-cron.php")) and (ip.src ne YOURIPADDRESS)
     ```
 
 ## Blocking HTTP/2 DDoS Attacks
