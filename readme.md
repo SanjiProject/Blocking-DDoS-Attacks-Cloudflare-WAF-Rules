@@ -70,6 +70,7 @@ This rule ensures that requests from Google PageSpeed Insights and Googlebot are
     )
     ```
 Dont forgot to Select Skip And Checklist on "All Remaining Custom Rules"
+
  [![Open Cloudflare WAF Tutorial 3](https://i.ibb.co/Pj9c5S6/cf3.jpg)](https://i.ibb.co/Pj9c5S6/cf3.jpg)
 
 ## Credits
