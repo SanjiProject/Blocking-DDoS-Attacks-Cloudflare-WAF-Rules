@@ -1,6 +1,6 @@
 # Blocking DDoS Attacks: Advanced WAF Rules With CloudFlare
 
-Welcome to our repository dedicated to providing advanced Web Application Firewall (WAF) rules to protect your web applications from Distributed Denial of Service (DDoS) attacks. This guide includes tailored rules for different scenarios, ensuring your application stays online and secure.
+Welcome to my repository dedicated to providing advanced Web Application Firewall (WAF) rules to protect your web applications from Distributed Denial of Service (DDoS) attacks. This guide includes tailored rules for different scenarios, ensuring your application stays online and secure.
 
 ## Basic WAF DDoS Rule
 # Setting Up Cloudflare WAF Rules: A Visual Guide
