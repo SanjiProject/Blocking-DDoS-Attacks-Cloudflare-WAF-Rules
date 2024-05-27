@@ -42,6 +42,23 @@ Dont forgot to Select Skip And Checklist on "All Remaining Custom Rules"
 
  [![Open Cloudflare WAF Tutorial 3](https://i.ibb.co/Pj9c5S6/cf3.jpg)](https://i.ibb.co/Pj9c5S6/cf3.jpg)
 
+## Set Rate Limit on Your WAF
+
+- On your Cloudflare Site, navigate to "Security" on the side tab.
+- Select "WAF."
+ [![Open Cloudflare WAF Tutorial 4](https://i.ibb.co/hFBCkSb/cf3.jpg)](https://i.ibb.co/hFBCkSb/cf3.jpg)
+- Choose Rate Limiting Rules 
+- Create Rule
+- Rule name (required): Enter your  Desired Rule Name - Example (Rate Limit)
+- Field Choose URI Path 
+- Operator Choose equals
+- Value use "/"
+- When rate Exceeds request you may choose 10 my recommendation is 5 
+- Period 10 Seconds 
+- Choose Action "Block"
+- Duration you may choose "1 Minute" for Pro Plan and "10 Seconds" with Free Plan
+ [![Open Cloudflare WAF Tutorial 4](https://i.ibb.co/D9yr56c/cf4.jpg)](https://i.ibb.co/D9yr56c/cf4.jpg)
+
 ## Credits
 
 ### Developer
