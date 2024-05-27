@@ -29,17 +29,14 @@ This rule targets HTTP/2 GET requests to a specific host while allowing legitima
 
 Designed specifically for WordPress installations, this rule blocks malicious traffic targeting the wp-admin and wp-cron.php endpoints, with an exception for a trusted IP.
 
-    ```
     ((http.request.uri.path contains "/wp-admin/" or http.request.uri.path eq "/wp-cron.php") and not ip.src eq 113.61.44.194)
-    ```
+
 
 ## Allow Google Bot & PageSpeed Insights For SEO Purposes
 
 This rule ensures that requests from Google PageSpeed Insights and Googlebot are always allowed, regardless of other filtering.
 
-    ```
     (http.user_agent eq "Googlebot") or (http.user_agent eq "googlebot") or (http.user_agent eq "Chrome-Lighthouse")
-    ```
 
 Dont forgot to Select Skip And Checklist on "All Remaining Custom Rules"
 
