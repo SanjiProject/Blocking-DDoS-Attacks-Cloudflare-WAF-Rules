@@ -21,9 +21,9 @@ Enhance your website's security with Cloudflare's Web Application Firewall (WAF)
 
 This rule targets HTTP/2 GET requests to a specific host while allowing legitimate traffic from India and excluding Googlebot and PageSpeed Insights.
 
-    ```
+
     (http.request.version eq "HTTP/2" and http.request.method eq "GET" and not ip.geoip.country in {"IN" "PH"})
-    ```
+
 
 ## WP-Admin and WP-Cron DDoS Protection
 
